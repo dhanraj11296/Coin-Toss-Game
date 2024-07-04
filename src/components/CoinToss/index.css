@@ -1,0 +1,55 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+}
+.coinTossContainer {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  width: 80%;
+}
+.heading {
+  text-align: center;
+  color: #a35200;
+  font-size: 25px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+.description {
+  color: #334155;
+  font-size: 20px;
+}
+.tossResultImg {
+  width: 150px;
+  height: 150px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.countsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.count {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+}
